@@ -1,3 +1,11 @@
+@import url("/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/assets/categories.jpg");
+@import url("/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/assets/directions.jpg");
+@import url("/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/assets/doodle_bot.png");
+@import url("/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/assets/final.jpg");
+@import url("/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/assets/mockup.jpg");
+@import url("/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-111042/ReemKufi-Bold.woff2");
+
+
 body{
     background-color: #feffef;
     text-align: left;
@@ -49,7 +57,6 @@ h3{
 h2{
     text-align: left;
     font-size:27px;
-    font-family: 'DM Serif Display', serif;
 }
 
 .center {
