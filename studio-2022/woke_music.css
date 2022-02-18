@@ -1,0 +1,22 @@
+body{
+    text-align: left;
+    background-color: black;
+    color:#f0f0f0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+    color: #f0f0f0;
+}
+
+h2{
+    text-align: center;
+    color: #0092cc;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}

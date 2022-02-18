@@ -1,0 +1,118 @@
+body{
+    background-color: #feffef;
+    text-align: left;
+    font-size: 20px;
+    color:#feffef;
+}
+
+@font-face {
+    font-family: 'Reem Kufi';
+    src: url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-111042/ReemKufi-Bold.woff2') format('woff2'),
+        url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-111042/ReemKufi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+  h1{
+        text-align: center;
+        font-family: 'Reem Kufi', sans-serif;
+        color: #102339;
+        font-size: 50px;
+    }
+@font-face {
+     font-family: 'Volkhov';
+        src: url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-113329/Volkhov-BoldItalic.woff2 ') format('woff2'),
+            url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-113329/Volkhov-BoldItalic.woff ') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+h3{
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    position: relative;
+    top:-25px;
+    color: black;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-122151/DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-122151/DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h2{
+    text-align: left;
+    font-size:27px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.inner_box{
+    margin: -20px;
+    padding: 40px;
+    position: relative;
+    top:-20px;
+    background-color: #2A4168;
+    border-radius: 35px;
+}
+
+.sidebar {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 15px;
+    right: 70px;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #5D7797;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #2A4168;
+  }
+
+  .doodle_bot{
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+ ul.sqaure {
+    list-style-type: square;
+  }
+  li::marker {
+    color: #feffef;
+  }
+  
+  li::marker {
+    font-size: 2rem;
+  }
