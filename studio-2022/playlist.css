@@ -25,7 +25,7 @@ h2{
 
 a:link {
     text-decoration: none;
-    color: white;
+    color:  #f76d7f;
   }
   
   a:visited {
@@ -35,9 +35,27 @@ a:link {
   
   a:hover {
     text-decoration: none;
-    color: #ffb989;
+    color: #c1ff1c;
   }
   
   a:active {
     text-decoration: none;
   }
+
+
+.glow {
+  font-size: auto;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffb989, 0 0 40px #ffb989, 0 0 50px #ffb989, 0 0 60px #ffb989, 0 0 70px #ffb989, 0 0 80px #ffb989;
+  }
+}

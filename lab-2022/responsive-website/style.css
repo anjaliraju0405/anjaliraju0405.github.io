@@ -1,0 +1,242 @@
+/* media query style for phone */
+
+@media screen and (min-width: 320px) {
+body{
+    background-color: #A89FE9;
+    color: aliceblue;
+    font-family: 'Bitter', serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    color: #404064;
+    line-height: 45px;
+    
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #534d80;
+    text-align: center;
+    line-height: 20px;
+}
+
+h3{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #534d80;
+}
+
+.container0{
+    position: relative;
+    top: auto;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    border-radius: 10px;
+    border-width: 9px;
+    border-style: double;
+    border-color: #d1cbff;
+    margin: 40px;
+    padding: 40px;
+    
+ }
+
+.container0.container {
+    position: relative;
+    top: auto;
+    width: 1000px;
+    height: 450px;
+    margin: auto;
+}
+
+
+}
+
+/* media query style for ipads/tablets */
+
+@media screen and (min-width: 768px) {
+   
+    body{
+        background-color: #EA7989;
+        color: aliceblue;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    h1{
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        font-size: 50px;
+        color: #5a2930;
+        line-height: 20px;
+    }
+    
+    h2{
+        font-family: 'Cormorant Garamond', serif;
+        color: #8a424c;
+        line-height: 20px;
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    h3{
+        font-size: 30px;
+        font-family: 'Cormorant Garamond', serif;
+        color:#8a424c;
+    }
+    
+    .container0{
+        position: relative;
+        top: auto;
+        width: auto;
+        height: auto;
+        margin: 10px;
+        box-sizing: border-box;
+        overflow: hidden; 
+        border-radius: 10px;
+        border-width: 4px;
+        border-style: solid;
+        border-color: #ffa8b3;
+        margin: 40px;
+        padding: 40px;
+        
+     }
+    
+    .container0.container {
+        position: relative;
+        top: auto;
+        width: 1000px;
+        height: 450px;
+        margin: auto;
+    }
+    
+     
+    
+}
+
+
+
+/* media query style for laptop */
+
+    
+@media screen and (min-width: 1024px) {
+        
+    body{
+        background-color: #F7B7D9;
+        color: #381427;
+        font-family: 'Oxygen', sans-serif;
+    }
+    
+        h1{
+            text-align: left;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 50px;
+            color: #754c62;
+            line-height: 20px;
+        }
+        
+        h2{
+            text-align: left;
+            font-family: 'Comfortaa', cursive;
+            color: #a36787;
+        }
+
+        h3{
+            font-size: 24px;
+            font-family: 'Comfortaa', cursive;
+            color: #a36787;
+        }
+        
+        .container0{
+            position: relative;
+            top: auto;
+            width: auto;
+            height: auto;
+            margin: 10px;
+            box-sizing: border-box;
+            overflow: hidden; 
+            border-radius: 10px;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #851450;
+            margin: 40px;
+            padding: 40px;
+            border-style: dashed;
+         }
+        
+        .container0.container {
+            position: relative;
+            top: auto;
+            width: 1000px;
+            height: 450px;
+            margin: auto;
+        }
+        
+        }
+    
+
+/* media query style for desktop */
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: #DDF5F8;
+        color: #1b3942;
+        font-family: 'Brygada 1918', serif;
+    }
+    
+        h1{
+            text-align: left;
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: 70px;
+            color: white;
+            line-height: 20px;
+            COLOR:#3c5e68;
+        }
+        
+        h2{
+            text-align: left;
+            font-family: 'Barlow', sans-serif;
+            color:#316b7c;
+        }
+
+        h3{
+            font-size: 24px;
+            font-family: 'Barlow', sans-serif;
+            color: #316b7c;
+        }
+        
+        .container0{
+            position: relative;
+            top: auto;
+            width: auto;
+            height: auto;
+            margin: 10px;
+            box-sizing: border-box;
+            overflow: hidden; 
+            border-radius: 10px;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #1f3636;
+            margin: 40px;
+            padding: 40px;
+            border-style: dotted;
+         }
+        
+        .container0.container {
+            position: relative;
+            top: auto;
+            width: 1000px;
+            height: 450px;
+            margin: auto;
+        }
+     
+    
+}
+
+
+  
+  
