@@ -7,8 +7,8 @@ body{
 
 @font-face {
     font-family: 'Reem Kufi';
-    src: url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-111042/ReemKufi-Bold.woff2') format('woff2'),
-        url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-111042/ReemKufi-Bold.woff') format('woff');
+    src: url('/ReemKufi-Bold.woff2') format('woff2'),
+        url('/ReemKufi-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -20,14 +20,16 @@ body{
         color: #102339;
         font-size: 50px;
     }
-@font-face {
-     font-family: 'Volkhov';
-        src: url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-113329/Volkhov-BoldItalic.woff2 ') format('woff2'),
-            url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-113329/Volkhov-BoldItalic.woff ') format('woff');
+
+    @font-face {
+        font-family: 'Reem Kufi';
+        src: url('ReemKufi-Bold.woff2') format('woff2'),
+            url('ReemKufi-Bold.woff') format('woff');
         font-weight: bold;
-        font-style: italic;
+        font-style: normal;
         font-display: swap;
     }
+    
 
 h3{
     text-align: center;
@@ -39,8 +41,8 @@ h3{
 
 @font-face {
     font-family: 'DM Serif Display';
-    src: url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-122151/DMSerifDisplay-Regular.woff2') format('woff2'),
-        url('/Users/anjaliraju/Documents/GitHub/anjaliraju0405.github.io/lab-2022/Doodle-bot/font/transfonter.org-20220218-122151/DMSerifDisplay-Regular.woff') format('woff');
+    src: url('/DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('/DMSerifDisplay-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
