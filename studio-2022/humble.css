@@ -2,38 +2,85 @@ body{
     text-align: left;
     background-color: #AF4F41;
     color:#f0f0f0;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right:0px;
+  left: 0px;
+  width: 100%;
+  height:260px;
+  background-color: #AF4F41;
+  z-index: 12;
+}
+  
+.chapter{
+  margin: auto;
+  padding: 5px;
+  overflow: hidden;
+  position: fixed;
+  top: 1%;
+  left: 41%;
 }
 
 h1{
     text-align: center;
     font-family: 'Alatsi', sans-serif;
     color: #f0f0f0;
+    font-family: 'American Captain', 'sans-serif';
+    font-size: 50pt;  
+}
+@font-face {
+  font-family: 'American Captain';
+  src: url('AmericanCaptain.woff2') format('woff2'),
+      url('AmericanCaptain.woff') format('woff');
+  font-weight:normal
+  ;
+  font-style: normal;
+  font-display: swap;
 }
 
 h2{
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: #D7FF96;
+  font-family: grad, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
+  position: relative;
+  top: 250px;
+  left: 0%;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
 a:link {
     text-decoration: none;
-    color: #f76d7f;
+    color: #57FFD7;
   }
   
   a:visited {
     text-decoration: none;
-    color: #f76d7f;
+    color: #57FFD7;
   }
   
   a:hover {
     text-decoration: none;
-    color: #c1ff1c;
+    color: #57FFD7;
+    font-size: 15pt;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
   
   a:active {
@@ -49,10 +96,10 @@ a:link {
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f76d7f, 0 0 40px #f76d7f, 0 0 50px #f76d7f, 0 0 60px #f76d7f, 0 0 70px #f76d7f;
+      text-shadow: 0 0 10px #34f1c5, 0 0 20px #34f1c5, 0 0 30px #34f1c5, 0 0 40px #34f1c5, 0 0 50px #34f1c5, 0 0 60px #34f1c5, 0 0 70px #34f1c5;
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #f76d7f, 0 0 40px #f76d7f, 0 0 50px #f76d7f, 0 0 60px #f76d7f, 0 0 70px #f76d7f, 0 0 80px #f76d7f;
+      text-shadow: 0 0 20px #349b83, 0 0 30px #349b83, 0 0 40px #349b83, 0 0 50px #349b83, 0 0 60px #349b83, 0 0 70px #349b83, 0 0 80px #349b83;
     }
   }

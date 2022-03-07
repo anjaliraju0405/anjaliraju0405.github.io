@@ -4,6 +4,32 @@ body{
     text-align: left;
     background-color: #273248;
     color:#f0f0f0;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right:0px;
+  left: 0px;
+  width: 100%;
+  height:260px;
+  background-color: #273248;
+  z-index: 12;
+}
+  
+.chapter{
+  margin: auto;
+  padding: 5px;
+  overflow: hidden;
+  position: fixed;
+  top: 1%;
+  left: 41%;
 }
 
 h1{
@@ -25,9 +51,15 @@ h1{
 h2{
     text-align: center;
     color: #D7FF96;
+    font-family: grad, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .center {
+    position: relative;
+    top: 250px;
+    left: 0%;
     margin: auto;
     width: 60%;
     padding: 10px;
@@ -46,6 +78,10 @@ a:link {
   a:hover {
     text-decoration: none;
     color: #E390C2;
+    font-size: 15pt;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
   
   a:active {
@@ -62,10 +98,10 @@ a:link {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ffb989, 0 0 40px #ffb989, 0 0 50px #ffb989, 0 0 60px #ffb989, 0 0 70px #ffb989, 0 0 80px #ffb989;
+    text-shadow: 0 0 20px #a00753, 0 0 30px #a00753, 0 0 40px #a00753, 0 0 50px #a00753, 0 0 60px #a00753, 0 0 70px #a00753, 0 0 80px #a00753;
   }
 }
