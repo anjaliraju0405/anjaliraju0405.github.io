@@ -1,7 +1,7 @@
 
 body{
     text-align: left;
-    background-color: black;
+    background-color: #66342c;
     color: #f0f0f0;
 }
 
@@ -13,7 +13,7 @@ h1{
 
 h2{
     text-align: center;
-    color: #0092cc;
+    color: #f0f0f0;
 }
 
 .center {
@@ -24,12 +24,12 @@ h2{
 
 a:link {
     text-decoration: none;
-    color: #d85769;
+    color: #D3FF8A;
   }
   
   a:visited {
     text-decoration: none;
-    color: #d85769;
+    color: #D3FF8A;
   }
   
   a:hover {
@@ -51,10 +51,10 @@ a:link {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #D3FF8A, 0 0 40px #D3FF8A, 0 0 50px #D3FF8A, 0 0 60px #D3FF8A, 0 0 70px #D3FF8A;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #D3FF8A, 0 0 40px #D3FF8A, 0 0 50px #D3FF8A, 0 0 60px #D3FF8A, 0 0 70px #D3FF8A, 0 0 80px #D3FF8A;
   }
 }

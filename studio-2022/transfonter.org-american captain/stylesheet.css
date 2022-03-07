@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'American Captain';
+    src: url('AmericanCaptain.woff2') format('woff2'),
+        url('AmericanCaptain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

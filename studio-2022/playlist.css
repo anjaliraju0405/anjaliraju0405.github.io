@@ -2,19 +2,29 @@
 
 body{
     text-align: left;
-    background-color: black;
+    background-color: #273248;
     color:#f0f0f0;
 }
 
 h1{
     text-align: center;
-    font-family: 'Alatsi', sans-serif;
     color: #f0f0f0;
+    font-family: 'American Captain', 'sans-serif';
+    font-size: 50pt;
+}
+@font-face {
+  font-family: 'American Captain';
+  src: url('AmericanCaptain.woff2') format('woff2'),
+      url('AmericanCaptain.woff') format('woff');
+  font-weight:normal
+  ;
+  font-style: normal;
+  font-display: swap;
 }
 
 h2{
     text-align: center;
-    color: #0092cc;
+    color: #D7FF96;
 }
 
 .center {
@@ -25,17 +35,17 @@ h2{
 
 a:link {
     text-decoration: none;
-    color:  #f76d7f;
+    color:  #E390C2;
   }
   
   a:visited {
     text-decoration: none;
-    color: #f76d7f;
+    color: #E390C2;
   }
   
   a:hover {
     text-decoration: none;
-    color: #c1ff1c;
+    color: #E390C2;
   }
   
   a:active {

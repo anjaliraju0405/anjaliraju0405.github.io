@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sharp Sans Display No2 TRIAL';
+    src: url('SharpSansDisplayNo2TRIAL-Bold.woff2') format('woff2'),
+        url('SharpSansDisplayNo2TRIAL-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

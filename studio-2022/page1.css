@@ -1,0 +1,28 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #FEFFD8;
+    font-size: 15pt;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.container {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    margin: 240px auto;
+     
+}
+

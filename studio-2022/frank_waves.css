@@ -1,18 +1,18 @@
 body{
     text-align: left;
-    background-color: black;
-    color: white;
+    background-color: #FACA83;
+    color: black;
 }
 
 h1{
     text-align: center;
     font-family: 'Alatsi', sans-serif;
-    color: white;
+    color: black;
 }
 
 h2{
     text-align: center;
-    color: #0092cc;
+    color: black;
 }
 
 h3{
