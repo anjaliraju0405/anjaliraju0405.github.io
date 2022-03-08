@@ -9,20 +9,22 @@ body{
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin: auto;
-    width: 50%;
+    width: 60%;
     padding: 10px;
 }
-.container{ 
-    margin: auto;
-    width: 590px;
-    padding: 10px;
-}
+
 
 h1{
     text-align: center;
     color: #3B68C2;
     font-family: 'Sharp Sans Display No2 TRIAL', sans-serif;
     font-size: 50pt;
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
+
 }
 
 @font-face {
@@ -32,6 +34,15 @@ h1{
     font-weight: bold;
     font-style: normal;
     font-display: swap;
+}
+
+
+
+
+.container1{ 
+    margin: auto;
+    width: 590px;
+    padding: 10px;
 }
 
 
@@ -80,3 +91,6 @@ h2{
     text-decoration: none;
     color: inherit;
 }
+
+  
+
