@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Space Grotesk', sans-serif;
     background-color: #FEFFD8;
@@ -6,6 +7,7 @@ body{
 }
 
 img {
+    position:relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,3 +29,110 @@ img {
      
 }
 
+
+
+#box1 {
+    position: absolute;
+    top:10%;
+    left:39.5%;
+      background-color: none;
+      width: 150px;
+      height: 2px;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 20px;
+      transform: rotate(90deg);
+      border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+  }
+
+
+
+  #box2 {
+    position: absolute;
+    top:23%;
+    left:53.5%;
+      background-color: none;
+      width: 150px;
+      height: 2px;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 20px;
+      transform: rotate(-30deg);
+      border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+ 
+  }
+
+
+  #box3 {
+    position: absolute;
+    top:51%;
+    left:54.5%;
+      background-color: none;
+      width: 150px;
+      height: 2px;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 20px;
+      transform: rotate(30deg);
+      border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    
+  }
+
+  #box4 {
+    position: absolute;
+    top:70%;
+    left:38.3%;
+      background-color: none;
+      width: 190px;
+      height: 2px;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 20px;
+      transform: rotate(90deg);
+      border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+  
+  }
+
+
+  #box5 {
+    position: absolute;
+    top:52.5%;
+    left:26%;
+      background-color: none;
+      width: 150px;
+      height: 2px;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 20px;
+      transform: rotate(-30deg);
+      border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    
+  }
+
+
+  #box6 {
+    position: absolute;
+    top:24%;
+    left:28.5%;
+      background-color: none;
+      width: 120px;
+      height: 2px;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 20px;
+      transform: rotate(30deg);
+      border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    
+  }
