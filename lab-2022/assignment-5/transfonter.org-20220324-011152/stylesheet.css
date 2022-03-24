@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Centra No1 TRIAL';
+    src: url('CentraNo1TRIAL-Book.woff2') format('woff2'),
+        url('CentraNo1TRIAL-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Centra No1 TRIAL';
+    src: url('CentraNo1TRIAL-BookItalic.woff2') format('woff2'),
+        url('CentraNo1TRIAL-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 10px solid red;
+}
+
+body{
+    background-color: #D6D6C7;
+}
+
+h1{
+    font-size: 8em;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    line-height: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color:  black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #A7C9B0;
+    font-style: normal;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+h2{
+    font-size: 2.5em;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+}
+
+#box1 {
+    position: absolute;
+    top: auto;
+    right: 10em;
+    max-height: fit-content;
+    width: 35%;
+    box-sizing: border-box;
+    overflow: hidden; 
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #49734D;
+    background-color: #49734D;
+}
+
+p{
+    margin: 0;
+    padding: 2em;
+    color: rgb(243, 233, 220);
+    font-family: 'Centra No1 TRIAL';
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Centra No1 TRIAL';
+    src: url('CentraNo1TRIAL-Book.woff2') format('woff2'),
+        url('CentraNo1TRIAL-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* images */
+
+.ctrl0{
+    width: fit-content;
+    height: fit-content;
+}
