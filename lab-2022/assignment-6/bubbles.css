@@ -1,24 +1,81 @@
-html {
-    font-size: 62.5%
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';
+    src: url('FiraSansExtraCondensed-Black.woff2') format('woff2'),
+        url('FiraSansExtraCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 body{
     margin: 0;
+    background-image:url("images/sheet4.jpeg");
+}
+
+h1{
+    font-family: 'Fira Sans Extra Condensed';
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: rgb(37, 29, 23);
 }
 
 #container{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(135deg, rgb(251,255,254), rgb(242,261,249));
 }
 
-.bubble {
+.bubble  {
+    opacity: 80%;
     position: absolute;
-    width: 5rem;
-    height: 5rem;
-    background: rgba(247, 255, 255, 0.5);
-    border: solid .1rem rgba(106,198,198,0.2);
-    border-radius: 50%;
-    box-shadow: inset -.3rem -.3rem .8rem rgba(106,198,198,0.3) ;
     cursor: pointer;
 }
+
+/* media screen */
+
+@media screen and (max-width: 1024px) {
+    body{
+        margin: 0;
+        background-image:url("images/sheet3.jpeg");
+    }
+
+    h1{
+        font-family: 'Fira Sans Extra Condensed';
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 5em;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        margin: 0;
+        background-image:url("images/sheet1.jpeg");
+    }
+
+    h1{
+        font-family: 'Fira Sans Extra Condensed';
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 5em;
+        color: rgb(0, 0, 0);
+    }
+}
+
+

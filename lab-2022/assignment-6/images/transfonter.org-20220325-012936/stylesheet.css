@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';
+    src: url('FiraSansExtraCondensed-Black.woff2') format('woff2'),
+        url('FiraSansExtraCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
