@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Syncopate';
+    src: url('Syncopate-Regular.woff2') format('woff2'),
+        url('Syncopate-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+h1{
+    font-family: 'Syncopate-Regular', sans-serif;
+    font-size: 4em;
+}
