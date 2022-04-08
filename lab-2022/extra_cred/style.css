@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    margin: 1em;
+    padding: 1em;
+    width: auto;
+    height: 100vh;
+    background-color: #000200;
+  }
+  
+  @font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('IBMPlexMono-Bold.woff2') format('woff2'),
+        url('IBMPlexMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1{
+    margin: 0em;
+    padding: 0.2em;
+    border: 1.5px solid black;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    font-family: 'IBMPlexMono-Bold';
+    justify-content: center;
+    text-align: center;
+    font-size: 7vw;
+    background-color: #F5F4F0;
+    width: 91.5vw;
+    
+    
+}
+
+
+.container2{
+    position: absolute;
+    top: 26%;
+    right: 2.75%;
+    display: flex;
+    width: 94.25vw;
+    height: 70vh;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #F5F4F0;
+}
+
+
+
+

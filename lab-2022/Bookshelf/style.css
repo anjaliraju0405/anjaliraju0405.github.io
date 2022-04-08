@@ -1,17 +1,182 @@
+
 @font-face {
-    font-family: 'Syncopate';
-    src: url('Syncopate-Regular.woff2') format('woff2'),
-        url('Syncopate-Regular.woff') format('woff');
+    font-family: 'Quicksand';
+    src: url('Quicksand-Light.woff2') format('woff2'),
+        url('Quicksand-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-size: 20pt;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    background-color: rgb(241, 237, 197);
+    margin: 2em;
+    
+}
+
+@font-face {
+    font-family: 'Sharp Sans Display No2 TRIAL';
+    src: url('SharpSansDisplayNo2TRIAL-Bold.woff2') format('woff2'),
+        url('SharpSansDisplayNo2TRIAL-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+    font-family: 'Sharp Sans Display No2 TRIAL';
+    font-size: 3em;
+    color: #f07c68;
+}
+
+
+.hidden {
+    display: none !important;
+  }
+
+  @font-face {
+    font-family: 'DM Serif Display';
+    src: url('DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('DMSerifDisplay-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-body {
-    background-color: lemonchiffon;
+h2{
+  font-family: 'DM Serif Display';
+  color: #f3aa94;
+  font-size: 3em;
+  text-transform: uppercase;
 }
 
-h1{
-    font-family: 'Syncopate-Regular', sans-serif;
-    font-size: 4em;
+.more{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #6B9493;
 }
+
+.shelf {
+    border-bottom: 10px solid #aa4c0a; 
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    margin-bottom: 2em; 
+    display: flex;
+    align-items: flex-end;
+    width: 20em;
+  }
+
+.shelf .book-spine {
+    background: #efbf38;
+    color: black;
+    opacity: 50%;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-right: 2px; 
+
+  /*   height: 300px;
+    width: fit-content; 
+    padding: 10px 0px; 
+    transform: rotate(180deg);
+    writing-mode: vertical-lr; */
+
+    line-height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+  }
+
+.shelf .book-spine.active {
+    background: #e08600;
+    color: white;
+    opacity: 100%;
+  }
+  
+  .shelf .book-spine:hover {
+    background: #efbf38;
+    opacity: 100%;
+  }
+  
+  .book-detail {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .book-detail .figure {
+    width: 200px;
+    flex: none;
+    margin-right: 30px;
+  }
+  
+  .book-detail .cover-image {
+    width: 100%;
+    border: 5px solid #FDA300;
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .book-detail .info {
+    max-width: 600px;
+  }
+  
+  .book-detail .title {
+    font-size: 24px;
+    text-transform: unset;
+    margin-top: 0;
+  }
+  
+  .book-detail .description {
+    margin-top: 0.5em;
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  
+  /* make it responsive */
+  @media (max-width: 800px) {
+    main {
+      max-width: 80%;
+  }
+    body{
+        background-color: #202A44;;
+        color: white;
+    }
+    .book-detail {
+      display: flex;
+      flex-direction: column;
+    }
+    .book-detail .info {
+      border-left: none;
+      border-top: 2px solid #272727;
+  }
+    .book-detail .figure {
+      max-width: 60%;
+      height: auto;
+      margin: 2em auto;
+      margin-bottom: 2em;
+    }
+    .shelf .book-spine {
+        flex-direction: wrap;
+    }
+  }
+
+  
