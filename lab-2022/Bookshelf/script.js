@@ -6,7 +6,7 @@ console.log(Airtable);
 var base = new Airtable({apiKey: 'keydz80usbgrNgxxm'}).base('appTjyCT0fZYicFmT');
 
 base("books").select({
-  view: "fiction"
+  view: "self-help"
 }).eachPage(gotPageOfBooks, gotAllBooks);
 
 // an empty array to hold our book data
