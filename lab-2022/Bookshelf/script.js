@@ -1,14 +1,13 @@
 console.log("hello bookshelf");
 
-//here we are defining our variable, called Airtable and calling up the airtable library 
-
 var Airtable = require("airtable");
 console.log(Airtable);
 
 var base = new Airtable({apiKey: 'keydz80usbgrNgxxm'}).base('appTjyCT0fZYicFmT');
 
-
-base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+base("books").select({
+  view: "fiction"
+}).eachPage(gotPageOfBooks, gotAllBooks);
 
 // an empty array to hold our book data
 const books = [];

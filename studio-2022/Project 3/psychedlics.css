@@ -1,0 +1,98 @@
+body{
+    background-color: #E6E6E6;
+	margin: 1em;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'Glassure';
+    src: url('Glassure.woff2') format('woff2'),
+        url('Glassure.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+	position: fixed;
+	font-family: 'Glassure', serif;
+	letter-spacing: .5rem;
+    writing-mode: vertical-lr;
+	font-size: 40pt;
+    transform: rotate(180deg);
+    margin: 1em;;
+}
+
+section
+{
+	padding: 50px;
+    color: black;
+}
+
+section h2
+{
+	font-size: 2em;
+	color: rgb(0, 0, 0);
+	margin: 3em;
+}
+
+::-webkit-scrollbar
+{
+	width: 0;
+}
+
+#scrollPath
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+    margin:1.5em;
+	width: 10px;
+	height: 100%;
+	background: rgba(255,255,255,0.05);
+}
+
+#progressbar
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+    margin: 1em;
+	width: 10px;
+	background: linear-gradient(to top, #008aff,#00ffe7);
+	animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+{
+	0%,100%
+	{
+		filter: hue-rotate(0deg);
+	}
+	50%
+	{
+		filter: hue-rotate(360deg);
+	}
+}
+#progressbar:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #008aff,#00ffe7);
+	filter: blur(10px);
+}
+#progressbar:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #008aff,#00ffe7);
+	filter: blur(30px);
+}
