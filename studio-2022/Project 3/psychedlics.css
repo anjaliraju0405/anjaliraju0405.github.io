@@ -13,27 +13,57 @@ body{
     font-display: swap;
 }
 
-h1 {
+h1{
+	display:inline-block;
+	/* outline: solid red; */
+	padding: 0;
 	position: fixed;
 	font-family: 'Glassure', serif;
 	letter-spacing: .5rem;
     writing-mode: vertical-lr;
 	font-size: 40pt;
     transform: rotate(180deg);
-    margin: 1em;;
+    margin: 0.5em;;
 }
 
-section
-{
-	padding: 50px;
+.wrapper{
+	display: flex;
+	justify-content: center;
+	/* outline: solid red;  */
+	margin: 40px;
+	/* position: absolute; */
+	width: auto;
+	height: auto;
+}
+
+.wrapper img{
+	padding-left: 50px;
+}
+
+.wrapper2{
+	display: flex;
+	justify-content: center;
+	/* outline: solid red;   */
+	margin: 40px;
+	width: auto;
+	height: auto;
+}
+
+.wrapper2 img{
+	padding-left: 25px;
+}
+
+section{
+	margin: 20px;
+	/* outline: 3px solid black; */
+	padding: 2em;
     color: black;
+	height: auto;
 }
 
-section h2
-{
-	font-size: 2em;
-	color: rgb(0, 0, 0);
-	margin: 3em;
+section h2{
+	opacity: 0%;;
+	
 }
 
 ::-webkit-scrollbar
@@ -74,6 +104,7 @@ section h2
 		filter: hue-rotate(360deg);
 	}
 }
+
 #progressbar:before
 {
 	content: '';
@@ -85,6 +116,7 @@ section h2
 	background: linear-gradient(to top, #008aff,#00ffe7);
 	filter: blur(10px);
 }
+
 #progressbar:before
 {
 	content: '';
