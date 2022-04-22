@@ -5,27 +5,18 @@ body{
 }
 
 h1{
-    margin:auto;
-    padding: 30px;
-    font-size: 40pt;
-    font-family:  'Nunito', sans-serif;
-    color: #127ffc;
-}
-
-div {
-    border:1px solid gray;
-    display: inline-block;
-    border-radius: 50%;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(0, 89, 255);
+    font-size: 34pt;
 }
 
 button{
     position: absolute;
-    bottom: 10%;
     left: 50%;
-    -ms-transform: translate(-50%, 10%);
-    transform: translate(-50%, 10%);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
     margin: auto;
-    padding: 8px;
+    padding: 5px;
     width: 250px;
     border: 4px solid #C4C4C4;
     box-sizing: border-box;
@@ -39,21 +30,27 @@ button{
     cursor: pointer;
 }
 
+div {
+    border:1px solid black;
+    background:white;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.pixel{
+  color:white;
+}
 
 .pixel:hover{
     background-color: blue;
 }
 
 .grid-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     margin:auto;
     display:grid;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    background:white;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
 }
