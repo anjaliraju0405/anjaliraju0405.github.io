@@ -2,6 +2,7 @@ body{
     background-color: #E6E6E6;
 	margin: 1em;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 @font-face {
@@ -27,17 +28,14 @@ h1{
 }
 
 .wrapper{
-	display: flex;
-	justify-content: center;
-	/* outline: solid red;  */
-	margin: 40px;
-	/* position: absolute; */
-	width: auto;
-	height: auto;
+	margin:0px;
+	margin-left:35%;
+	margin-right: auto;
 }
 
 .wrapper img{
-	padding-left: 50px;
+	border-radius: 100%;
+
 }
 
 .wrapper2{
@@ -51,21 +49,37 @@ h1{
 
 .wrapper2 img{
 	padding-left: 25px;
+	opacity: 50%;
+	border-radius: 35%;
 }
 
-section{
-	margin: 20px;
-	/* outline: 3px solid black; */
-	padding: 2em;
-    color: black;
-	height: auto;
+.wrapper2 img:hover{
+	padding-left: 25px;
+	opacity: 100%;
 }
 
-section h2{
-	opacity: 0%;;
-	
+.wrapper3{
+	/* outline: solid red;   */
+	margin:0px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.catalogue{
+	margin: 0 auto;
+	max-width: 90%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 6px;
+}
+
+.catalogue img{
+	width:100%;
+	display: block;
+}
+
+/* scroll bar */
 ::-webkit-scrollbar
 {
 	width: 0;

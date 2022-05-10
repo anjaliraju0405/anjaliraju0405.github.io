@@ -1,0 +1,212 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: calc(16px + (28 - 16) * (100vw - 300px)/(1440 - 300));
+}
+
+body, button {
+  font: 1em "Fira Sans", sans-serif;
+  line-height: 1.5;
+}
+
+a, a:visited {
+  color: #d90009;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #b80008;
+}
+
+button, button > span {
+  color: #fff;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0.2em;
+  overflow: hidden;
+  position: fixed;
+  top: 0.75em;
+  left: 0.75em;
+  transition: opacity 0.15s linear;
+  -webkit-appearance: none;
+  z-index: 1;
+}
+button > span {
+  background-color: #333;
+  padding: 0.5em 1em;
+  transition: all 0.15s linear;
+  width: 100%;
+  height: 100%;
+}
+button:hover > span, button > span:focus {
+  background-color: #1a1a1a;
+}
+button:active > span {
+  background-color: #000;
+}
+button:focus {
+  outline: 0;
+  /* The button’s span should be focused instead */
+}
+
+canvas {
+  border-radius: 0.75em;
+  border-top: solid #2d0097;
+  border-right: solid #2d0097;
+  border-bottom: solid #2d0097;
+  border-left: solid #2d0097;
+  display: block;
+  width: 22.25em;
+  height: 16.25em;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+.top, .middle {
+  width: 100%;
+}
+
+.top {
+  color: #ffea75;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  text-align: center;
+  transform: scaleY(0.9);
+}
+.top span {
+  font-style: italic;
+}
+.top .caps {
+  margin: 0 0.5em;
+}
+.top .cursive {
+  font-size: 2em;
+}
+
+.middle {
+  display: flex;
+  align-items: flex-end;
+}
+.middle .dial-label {
+  font-size: 2em;
+  height: 1em;
+  line-height: 1;
+  width: 1.9375em;
+}
+.middle .dial-label svg {
+  width: 0.75em;
+  height: 0.75em;
+}
+
+/* Interface */
+.board {
+  background-color: #7674fc;
+  border-radius: 0.5em;
+  box-shadow: 0.4em 0.4em 0 #4000b8 inset, -0.4em -0.4em 0 #410097 inset;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 1.5em auto;
+  width: 30em;
+  height: 25em;
+  text-shadow: 1px 1px #000;
+  will-change: transform;
+}
+
+.note {
+  margin: 1.5em auto;
+  width: 100%;
+  max-width: 24em;
+}
+
+.hide {
+  height: 0;
+  margin: 0.75em auto;
+  visibility: hidden;
+}
+
+.info {
+  font-size: 0.5em;
+  width: calc(100% - 18em);
+}
+
+.dial {
+  background-image: radial-gradient(#bbb 4%, #fff 5%);
+  border-radius: 50%;
+  border-top: 0.4em solid #ddd;
+  border-right: 0.4em solid #bbb;
+  border-bottom: 0.4em solid #bbb;
+  border-left: 0.4em solid #ddd;
+  cursor: grab;
+  margin: 0.5em;
+  width: 3.5em;
+  height: 3.5em;
+}
+
+.dial-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.dial-label, .safety {
+  opacity: 0.5;
+}
+
+.dial-label {
+  text-align: center;
+}
+
+.safety {
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  text-align: center;
+}
+
+/* Typography */
+.caps {
+  text-transform: uppercase;
+}
+
+/* .cursive {
+  font-family: "Aladin", cursive;
+} */
+
+/* Animation */
+.shaking {
+  animation: shake 0.6s ease-out;
+}
+
+@keyframes shake {
+  from, to {
+    transform: translateY(0);
+  }
+  12.5% {
+    transform: translateY(-4%);
+  }
+  25% {
+    transform: translateY(4%);
+  }
+  50% {
+    transform: translateY(-1%);
+  }
+}
