@@ -95,6 +95,7 @@ canvas {
   border-right: solid #2d0097;
   border-bottom: solid #2d0097;
   border-left: solid #2d0097;
+  background-color:#00000091 ;
   display: block;
   width: 22.25em;
   height: 16.25em;
@@ -124,6 +125,7 @@ p {
   margin: 0 0.5em;
 }
 .top .cursive {
+  font-family: 'GT Walsheim Trial Cn Bl Ob';
   font-size: 2em;
 }
 
@@ -160,6 +162,7 @@ p {
 }
 
 .note {
+  
   margin: 1.5em auto;
   width: 100%;
   max-width: 24em;
@@ -224,13 +227,12 @@ p {
   font-display: swap;
 }
 
-
 .message {
   font-family: 'GT Walsheim Trial Cn Bl Ob';
   text-align: center;
   position: absolute;
   left: 3%;
-  top: 7%;
+  top: 4%;
   width: 10%;
   z-index: 1;
   color: black;
