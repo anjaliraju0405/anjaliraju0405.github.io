@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GT Walsheim Trial Cn Bl Ob';
+    src: url('GTWalsheimTrial-CnBlOb.woff2') format('woff2'),
+        url('GTWalsheimTrial-CnBlOb.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+

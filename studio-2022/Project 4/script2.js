@@ -25,7 +25,7 @@ function app() {
 
 		const img = new Image();
 	img.onload = draw;
-	img.src = 'images/art1.jpeg';
+	img.src = 'images/art4.jpeg';
 
 	var stylus = {
 			x: w/2,
