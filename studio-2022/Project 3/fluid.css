@@ -38,6 +38,10 @@ h1{
 
 }
 
+.wrapper2.icon1 {
+    opacity: 100%;
+}
+
 .wrapper2{
 	position: relative;
 	left: 20%;
