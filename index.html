@@ -4,9 +4,17 @@
         <meta charset="UTF-8">
         
         <title> My first Github Pages Document </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
     </head>
 <body>
+    <nav class="site-nav">
+        <button type="button" class="other-stuff-trigger" aria-haspopup="dialog" aria-controls="other-stuff" aria-expanded="false">Other stuff</button>
+    </nav>
+
     <div class="center">  <h1> Anjali's core interaction archive</h1>
         <p>Listed below are all the projects, exercises and assignments of spring 2022.</p>
         <h3>Studio project :</h3>
@@ -30,6 +38,28 @@
             <li><a href="" target="_blank">Assignment III</a></li>
         </ul>
     </div>
-   
+
+    <div class="other-stuff-backdrop" data-other-stuff-close hidden></div>
+    <aside id="other-stuff" class="other-stuff" role="dialog" aria-modal="true" aria-labelledby="other-stuff-title" hidden>
+        <header class="other-stuff__header">
+            <h2 id="other-stuff-title" class="other-stuff__title">Other Stuff</h2>
+            <button type="button" class="other-stuff__close" data-other-stuff-close aria-label="Close">
+                <img src="./assets/close.svg" width="32" height="32" alt="">
+            </button>
+        </header>
+        <div class="other-stuff__body">
+            <div class="other-stuff__card"></div>
+            <div class="other-stuff__card"></div>
+            <div class="other-stuff__card"></div>
+            <div class="other-stuff__card"></div>
+            <div class="other-stuff__card"></div>
+        </div>
+        <footer class="other-stuff__footer">
+            <p>Website last updated: 09.14.2025</p>
+            <p>&copy; anjali raju 2025</p>
+        </footer>
+    </aside>
+
+    <script src="./other-stuff.js"></script>
 </body>
 </html>
